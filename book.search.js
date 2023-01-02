@@ -65,6 +65,7 @@ const twentyLeaguesOut = {
  * */
 
 /** We can check that, given a known input, we get a known output. */
+
 const test1result = findSearchTermInBooks("the", twentyLeaguesIn);
 if (JSON.stringify(twentyLeaguesOut) === JSON.stringify(test1result)) {
     console.log("PASS: Test 1");
@@ -116,7 +117,7 @@ const Leah ReminiIn = [
 	   ]
 
 }	   
-const test3result = findSearchTermInBooks("the", LeahReminiIn);
+const test3result = findSearchTermInBooks("The", LeahReminiIn);
 if (JSON.stringify(LeahReminiOut) === JSON.stringify(test3result)) {
     console.log("PASS: Test 3");
 } else {
